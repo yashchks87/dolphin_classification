@@ -1,0 +1,229 @@
+2023-08-11 15:22:04,237 INFO    StreamThr :282917 [internal.py:wandb_internal():86] W&B internal server running at pid: 282917, started at: 2023-08-11 15:22:04.235733
+2023-08-11 15:22:04,242 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status
+2023-08-11 15:22:04,269 INFO    WriterThread:282917 [datastore.py:open_for_write():85] open: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/run-kl9j17r0.wandb
+2023-08-11 15:22:04,270 DEBUG   SenderThread:282917 [sender.py:send():379] send: header
+2023-08-11 15:22:04,462 DEBUG   SenderThread:282917 [sender.py:send():379] send: run
+2023-08-11 15:22:04,771 INFO    SenderThread:282917 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files
+2023-08-11 15:22:04,772 INFO    SenderThread:282917 [sender.py:_start_run_threads():1121] run started: kl9j17r0 with start time 1691767324.235766
+2023-08-11 15:22:04,775 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: summary_record
+2023-08-11 15:22:04,776 INFO    SenderThread:282917 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 15:22:04,800 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: check_version
+2023-08-11 15:22:04,801 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: check_version
+2023-08-11 15:22:04,906 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: run_start
+2023-08-11 15:22:04,924 DEBUG   HandlerThread:282917 [system_info.py:__init__():31] System info init
+2023-08-11 15:22:04,925 DEBUG   HandlerThread:282917 [system_info.py:__init__():46] System info init done
+2023-08-11 15:22:04,925 INFO    HandlerThread:282917 [system_monitor.py:start():181] Starting system monitor
+2023-08-11 15:22:04,925 INFO    SystemMonitor:282917 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-11 15:22:04,927 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started cpu monitoring
+2023-08-11 15:22:04,928 INFO    HandlerThread:282917 [system_monitor.py:probe():201] Collecting system info
+2023-08-11 15:22:04,930 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started disk monitoring
+2023-08-11 15:22:04,933 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started gpu monitoring
+2023-08-11 15:22:04,936 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started memory monitoring
+2023-08-11 15:22:04,944 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started network monitoring
+2023-08-11 15:22:04,960 DEBUG   HandlerThread:282917 [system_info.py:probe():195] Probing system
+2023-08-11 15:22:04,973 DEBUG   HandlerThread:282917 [system_info.py:_probe_git():180] Probing git
+2023-08-11 15:22:05,000 DEBUG   HandlerThread:282917 [system_info.py:_probe_git():188] Probing git done
+2023-08-11 15:22:05,000 DEBUG   HandlerThread:282917 [system_info.py:probe():240] Probing system done
+2023-08-11 15:22:05,000 DEBUG   HandlerThread:282917 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-73-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-08-11T15:22:04.961099', 'startedAt': '2023-08-11T15:22:04.223895', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/yashchks87/dolphin_classification.git', 'commit': 'f268f79c93e36076fcc1836df150d816c8389518'}, 'email': None, 'root': '/home/ubuntu/dolphin_classification', 'host': '209-20-157-48', 'username': 'ubuntu', 'executable': '/usr/bin/python', 'cpu_count': 26, 'cpu_count_logical': 26, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 992.2479553222656, 'used': 149.24183654785156}, 'gpu': 'NVIDIA H100 PCIe', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA H100 PCIe', 'memory_total': 85520809984}], 'memory': {'total': 196.5813102722168}}
+2023-08-11 15:22:05,001 INFO    HandlerThread:282917 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-11 15:22:05,001 INFO    HandlerThread:282917 [system_monitor.py:probe():214] Publishing system info
+2023-08-11 15:22:05,001 DEBUG   HandlerThread:282917 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-11 15:22:05,002 DEBUG   HandlerThread:282917 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-11 15:22:05,003 INFO    HandlerThread:282917 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-11 15:22:05,018 DEBUG   SenderThread:282917 [sender.py:send():379] send: files
+2023-08-11 15:22:05,018 INFO    SenderThread:282917 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-11 15:22:05,059 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 15:22:05,060 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 15:22:05,220 DEBUG   SenderThread:282917 [sender.py:send():379] send: telemetry
+2023-08-11 15:22:05,332 INFO    wandb-upload_0:282917 [upload_job.py:push():131] Uploaded file /tmp/tmpkpp22dwdwandb/wi76laid-wandb-metadata.json
+2023-08-11 15:22:05,773 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/requirements.txt
+2023-08-11 15:22:05,773 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/output.log
+2023-08-11 15:22:05,773 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/wandb-summary.json
+2023-08-11 15:22:05,774 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/wandb-metadata.json
+2023-08-11 15:22:07,773 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/output.log
+2023-08-11 15:22:10,230 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 15:22:14,041 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: pause
+2023-08-11 15:22:14,041 INFO    HandlerThread:282917 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-11 15:22:14,041 INFO    HandlerThread:282917 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-11 15:22:14,042 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-11 15:22:14,042 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-11 15:22:14,042 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-11 15:22:14,044 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-11 15:22:14,044 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined disk monitor
+2023-08-11 15:22:14,130 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-11 15:22:14,130 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined memory monitor
+2023-08-11 15:22:14,130 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined network monitor
+2023-08-11 15:22:14,132 DEBUG   SenderThread:282917 [sender.py:send():379] send: stats
+2023-08-11 15:22:15,778 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/output.log
+2023-08-11 15:22:16,133 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 15:22:20,060 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 15:22:20,061 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 15:22:22,131 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 15:22:27,133 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 15:22:32,134 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 15:22:35,060 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 15:22:35,061 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 15:22:37,162 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 15:22:37,791 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/config.yaml
+2023-08-11 15:22:38,679 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: resume
+2023-08-11 15:22:38,679 INFO    HandlerThread:282917 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-11 15:22:38,680 INFO    HandlerThread:282917 [system_monitor.py:start():181] Starting system monitor
+2023-08-11 15:22:38,680 INFO    SystemMonitor:282917 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-11 15:22:38,681 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started cpu monitoring
+2023-08-11 15:22:38,682 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started disk monitoring
+2023-08-11 15:22:38,684 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started gpu monitoring
+2023-08-11 15:22:38,686 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started memory monitoring
+2023-08-11 15:22:38,690 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: pause
+2023-08-11 15:22:38,691 INFO    HandlerThread:282917 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-11 15:22:38,691 INFO    HandlerThread:282917 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-11 15:22:38,694 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started network monitoring
+2023-08-11 15:22:38,694 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-11 15:22:38,695 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-11 15:22:38,695 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-11 15:22:38,699 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-11 15:22:38,700 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined disk monitor
+2023-08-11 15:22:38,784 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-11 15:22:38,784 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined memory monitor
+2023-08-11 15:22:38,784 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined network monitor
+2023-08-11 15:22:38,786 DEBUG   SenderThread:282917 [sender.py:send():379] send: stats
+2023-08-11 15:22:40,063 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: resume
+2023-08-11 15:22:40,063 INFO    HandlerThread:282917 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-11 15:22:40,064 INFO    HandlerThread:282917 [system_monitor.py:start():181] Starting system monitor
+2023-08-11 15:22:40,064 INFO    SystemMonitor:282917 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-11 15:22:40,065 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started cpu monitoring
+2023-08-11 15:22:40,066 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started disk monitoring
+2023-08-11 15:22:40,068 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started gpu monitoring
+2023-08-11 15:22:40,074 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started memory monitoring
+2023-08-11 15:22:40,077 INFO    SystemMonitor:282917 [interfaces.py:start():190] Started network monitoring
+2023-08-11 15:22:40,862 DEBUG   SenderThread:282917 [sender.py:send():379] send: telemetry
+2023-08-11 15:22:40,863 DEBUG   SenderThread:282917 [sender.py:send():379] send: exit
+2023-08-11 15:22:40,863 INFO    SenderThread:282917 [sender.py:send_exit():584] handling exit code: 0
+2023-08-11 15:22:40,864 INFO    SenderThread:282917 [sender.py:send_exit():586] handling runtime: 10
+2023-08-11 15:22:40,866 INFO    SenderThread:282917 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 15:22:40,866 INFO    SenderThread:282917 [sender.py:send_exit():592] send defer
+2023-08-11 15:22:40,866 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:40,867 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-11 15:22:40,867 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:40,867 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-11 15:22:40,867 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 1
+2023-08-11 15:22:40,867 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:40,868 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-11 15:22:40,868 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:40,868 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-11 15:22:40,868 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 2
+2023-08-11 15:22:40,869 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:40,869 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-11 15:22:40,869 INFO    HandlerThread:282917 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-11 15:22:40,870 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-11 15:22:40,870 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-11 15:22:40,871 DEBUG   SystemMonitor:282917 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-11 15:22:40,872 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-11 15:22:40,872 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined disk monitor
+2023-08-11 15:22:40,913 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-11 15:22:40,913 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined memory monitor
+2023-08-11 15:22:40,913 INFO    HandlerThread:282917 [interfaces.py:finish():202] Joined network monitor
+2023-08-11 15:22:40,915 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:40,915 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-11 15:22:40,915 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 3
+2023-08-11 15:22:40,915 DEBUG   SenderThread:282917 [sender.py:send():379] send: stats
+2023-08-11 15:22:40,916 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:40,917 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-11 15:22:40,917 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:40,918 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-11 15:22:40,918 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 4
+2023-08-11 15:22:40,918 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:40,918 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-11 15:22:40,919 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:40,919 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-11 15:22:40,919 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 5
+2023-08-11 15:22:40,920 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:40,920 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-11 15:22:40,921 DEBUG   SenderThread:282917 [sender.py:send():379] send: summary
+2023-08-11 15:22:40,922 INFO    SenderThread:282917 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 15:22:40,922 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:40,922 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-11 15:22:40,922 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 6
+2023-08-11 15:22:40,923 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:40,923 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-11 15:22:40,924 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:40,924 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-11 15:22:40,930 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 15:22:41,004 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 7
+2023-08-11 15:22:41,005 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:41,005 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-11 15:22:41,006 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:41,007 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-11 15:22:41,279 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 8
+2023-08-11 15:22:41,280 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:41,280 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-11 15:22:41,281 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:41,281 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-11 15:22:41,282 INFO    SenderThread:282917 [job_builder.py:build():281] Attempting to build job artifact
+2023-08-11 15:22:41,282 INFO    SenderThread:282917 [job_builder.py:build():297] run is notebook based run
+2023-08-11 15:22:41,282 INFO    SenderThread:282917 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-08-11 15:22:41,283 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 9
+2023-08-11 15:22:41,283 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:41,284 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-11 15:22:41,284 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:41,285 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-11 15:22:41,285 INFO    SenderThread:282917 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-08-11 15:22:41,793 INFO    Thread-12 :282917 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/config.yaml
+2023-08-11 15:22:41,794 INFO    SenderThread:282917 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/wandb-summary.json
+2023-08-11 15:22:41,794 INFO    SenderThread:282917 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/output.log
+2023-08-11 15:22:41,795 INFO    SenderThread:282917 [dir_watcher.py:finish():388] scan: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files
+2023-08-11 15:22:41,796 INFO    SenderThread:282917 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/output.log output.log
+2023-08-11 15:22:41,796 INFO    SenderThread:282917 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/wandb-summary.json wandb-summary.json
+2023-08-11 15:22:41,797 INFO    SenderThread:282917 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/config.yaml config.yaml
+2023-08-11 15:22:41,797 INFO    SenderThread:282917 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/wandb-metadata.json wandb-metadata.json
+2023-08-11 15:22:41,797 INFO    SenderThread:282917 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/requirements.txt requirements.txt
+2023-08-11 15:22:41,798 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 10
+2023-08-11 15:22:41,799 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:41,799 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-11 15:22:41,824 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:41,824 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-11 15:22:41,824 INFO    SenderThread:282917 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-11 15:22:41,867 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-11 15:22:41,868 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: poll_exit
+2023-08-11 15:22:41,990 INFO    wandb-upload_1:282917 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/output.log
+2023-08-11 15:22:42,072 INFO    wandb-upload_0:282917 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/wandb-summary.json
+2023-08-11 15:22:42,126 INFO    wandb-upload_3:282917 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/requirements.txt
+2023-08-11 15:22:42,129 INFO    wandb-upload_2:282917 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/files/config.yaml
+2023-08-11 15:22:42,330 INFO    Thread-11 :282917 [sender.py:transition_state():612] send defer: 11
+2023-08-11 15:22:42,330 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:42,331 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-11 15:22:42,332 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:42,332 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-11 15:22:42,332 INFO    SenderThread:282917 [file_pusher.py:join():164] waiting for file pusher
+2023-08-11 15:22:42,332 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 12
+2023-08-11 15:22:42,333 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:42,333 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-11 15:22:42,334 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:42,334 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-11 15:22:42,334 INFO    SenderThread:282917 [file_stream.py:finish():593] file stream finish called
+2023-08-11 15:22:42,656 INFO    SenderThread:282917 [file_stream.py:finish():597] file stream finish is done
+2023-08-11 15:22:42,656 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 13
+2023-08-11 15:22:42,657 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:42,657 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-11 15:22:42,658 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:42,658 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-11 15:22:42,658 INFO    SenderThread:282917 [sender.py:transition_state():612] send defer: 14
+2023-08-11 15:22:42,659 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 15:22:42,659 INFO    HandlerThread:282917 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-11 15:22:42,660 DEBUG   SenderThread:282917 [sender.py:send():379] send: final
+2023-08-11 15:22:42,660 DEBUG   SenderThread:282917 [sender.py:send():379] send: footer
+2023-08-11 15:22:42,660 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: defer
+2023-08-11 15:22:42,660 INFO    SenderThread:282917 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-11 15:22:42,663 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-11 15:22:42,664 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: poll_exit
+2023-08-11 15:22:42,666 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: server_info
+2023-08-11 15:22:42,666 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-11 15:22:42,667 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-11 15:22:42,667 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: job_info
+2023-08-11 15:22:42,668 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: server_info
+2023-08-11 15:22:42,712 DEBUG   SenderThread:282917 [sender.py:send_request():406] send_request: job_info
+2023-08-11 15:22:42,716 DEBUG   HandlerThread:282917 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-11 15:22:42,716 INFO    HandlerThread:282917 [handler.py:finish():857] shutting down handler
+2023-08-11 15:22:43,668 INFO    WriterThread:282917 [datastore.py:close():294] close: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_152204-kl9j17r0/run-kl9j17r0.wandb
+2023-08-11 15:22:43,713 INFO    SenderThread:282917 [sender.py:finish():1552] shutting down sender
+2023-08-11 15:22:43,713 INFO    SenderThread:282917 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-11 15:22:43,713 INFO    SenderThread:282917 [file_pusher.py:join():164] waiting for file pusher

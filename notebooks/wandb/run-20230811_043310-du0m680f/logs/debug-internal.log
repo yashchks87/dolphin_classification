@@ -1,0 +1,396 @@
+2023-08-11 04:33:13,791 INFO    StreamThr :167281 [internal.py:wandb_internal():86] W&B internal server running at pid: 167281, started at: 2023-08-11 04:33:13.790231
+2023-08-11 04:33:13,798 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status
+2023-08-11 04:33:13,800 INFO    WriterThread:167281 [datastore.py:open_for_write():85] open: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/run-du0m680f.wandb
+2023-08-11 04:33:13,802 DEBUG   SenderThread:167281 [sender.py:send():379] send: header
+2023-08-11 04:33:13,802 DEBUG   SenderThread:167281 [sender.py:send():379] send: run
+2023-08-11 04:33:14,036 INFO    SenderThread:167281 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files
+2023-08-11 04:33:14,036 INFO    SenderThread:167281 [sender.py:_start_run_threads():1121] run started: du0m680f with start time 1691728392.926476
+2023-08-11 04:33:14,047 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: summary_record
+2023-08-11 04:33:14,048 INFO    SenderThread:167281 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 04:33:14,066 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: check_version
+2023-08-11 04:33:14,067 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: check_version
+2023-08-11 04:33:14,183 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: run_start
+2023-08-11 04:33:14,185 DEBUG   HandlerThread:167281 [system_info.py:__init__():31] System info init
+2023-08-11 04:33:14,185 DEBUG   HandlerThread:167281 [system_info.py:__init__():46] System info init done
+2023-08-11 04:33:14,185 INFO    HandlerThread:167281 [system_monitor.py:start():181] Starting system monitor
+2023-08-11 04:33:14,185 INFO    SystemMonitor:167281 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-11 04:33:14,187 INFO    HandlerThread:167281 [system_monitor.py:probe():201] Collecting system info
+2023-08-11 04:33:14,188 INFO    SystemMonitor:167281 [interfaces.py:start():190] Started cpu monitoring
+2023-08-11 04:33:14,189 INFO    SystemMonitor:167281 [interfaces.py:start():190] Started disk monitoring
+2023-08-11 04:33:14,193 INFO    SystemMonitor:167281 [interfaces.py:start():190] Started gpu monitoring
+2023-08-11 04:33:14,195 INFO    SystemMonitor:167281 [interfaces.py:start():190] Started memory monitoring
+2023-08-11 04:33:14,199 INFO    SystemMonitor:167281 [interfaces.py:start():190] Started network monitoring
+2023-08-11 04:33:14,212 DEBUG   HandlerThread:167281 [system_info.py:probe():195] Probing system
+2023-08-11 04:33:14,213 DEBUG   HandlerThread:167281 [system_info.py:_probe_git():180] Probing git
+2023-08-11 04:33:14,241 DEBUG   HandlerThread:167281 [system_info.py:_probe_git():188] Probing git done
+2023-08-11 04:33:14,242 DEBUG   HandlerThread:167281 [system_info.py:probe():240] Probing system done
+2023-08-11 04:33:14,242 DEBUG   HandlerThread:167281 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-73-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-08-11T04:33:14.212479', 'startedAt': '2023-08-11T04:33:10.139792', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/yashchks87/dolphin_classification.git', 'commit': 'f268f79c93e36076fcc1836df150d816c8389518'}, 'email': None, 'root': '/home/ubuntu/dolphin_classification', 'host': '209-20-157-48', 'username': 'ubuntu', 'executable': '/usr/bin/python', 'cpu_count': 26, 'cpu_count_logical': 26, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 992.2479553222656, 'used': 146.96688842773438}, 'gpu': 'NVIDIA H100 PCIe', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA H100 PCIe', 'memory_total': 85520809984}], 'memory': {'total': 196.5813102722168}}
+2023-08-11 04:33:14,242 INFO    HandlerThread:167281 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-11 04:33:14,242 INFO    HandlerThread:167281 [system_monitor.py:probe():214] Publishing system info
+2023-08-11 04:33:14,242 DEBUG   HandlerThread:167281 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-11 04:33:14,244 DEBUG   HandlerThread:167281 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-11 04:33:14,245 INFO    HandlerThread:167281 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-11 04:33:14,248 DEBUG   SenderThread:167281 [sender.py:send():379] send: files
+2023-08-11 04:33:14,248 INFO    SenderThread:167281 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-11 04:33:14,278 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:33:14,280 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:33:14,408 DEBUG   SenderThread:167281 [sender.py:send():379] send: telemetry
+2023-08-11 04:33:14,547 INFO    wandb-upload_0:167281 [upload_job.py:push():131] Uploaded file /tmp/tmpziwjvkw7wandb/1e9uhetw-wandb-metadata.json
+2023-08-11 04:33:15,038 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/requirements.txt
+2023-08-11 04:33:15,038 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:15,039 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/wandb-summary.json
+2023-08-11 04:33:15,039 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/wandb-metadata.json
+2023-08-11 04:33:17,036 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:19,425 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:24,426 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:29,040 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:29,459 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:33:29,460 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:33:29,518 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:31,040 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:33,041 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:35,013 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:35,041 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:37,042 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:39,043 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:40,174 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:41,043 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:43,044 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:44,459 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:33:44,460 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:33:45,045 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:45,187 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:46,046 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/config.yaml
+2023-08-11 04:33:47,046 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:49,048 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:50,918 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:51,049 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:53,050 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:55,051 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:55,936 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:33:57,052 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:59,053 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:33:59,459 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:33:59,460 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:34:01,054 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:01,675 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:03,054 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:05,055 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:06,700 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:07,056 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:09,057 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:11,058 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:11,975 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:13,059 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:14,200 DEBUG   SystemMonitor:167281 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-11 04:34:14,202 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:34:14,641 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:34:14,642 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:34:15,060 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:17,061 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:17,325 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:19,062 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:21,062 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:22,528 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:23,063 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:25,064 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:27,064 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:27,549 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:29,065 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:29,639 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:34:29,640 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:34:31,066 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:32,985 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:33,067 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:35,068 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:37,070 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:38,387 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:39,071 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:41,072 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:43,073 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:43,876 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:44,203 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:34:44,828 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:34:44,828 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:34:45,074 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:47,075 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:49,076 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:49,260 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:51,076 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:53,077 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:54,411 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:55,078 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:57,079 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:59,081 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:34:59,861 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:34:59,903 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:34:59,904 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:35:01,082 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:03,083 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:05,085 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:05,273 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:07,086 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:09,086 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:10,726 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:11,087 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:13,088 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:14,204 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:35:15,063 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:35:15,064 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:35:15,088 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:15,892 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:17,090 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:19,091 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:20,921 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:21,092 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:23,094 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:25,095 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:26,175 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:27,097 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:29,097 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:30,062 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:35:30,063 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:35:31,098 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:31,390 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:33,098 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:35,099 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:36,505 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:37,100 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:39,101 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:41,101 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:41,992 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:43,102 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:44,205 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:35:45,061 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:35:45,062 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:35:45,103 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:47,105 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:47,404 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:49,106 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:51,107 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:52,850 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:53,107 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:55,108 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:57,109 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:35:58,225 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:35:59,110 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:00,062 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:36:00,063 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:36:01,112 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:03,113 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:03,314 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:05,114 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:07,115 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:08,872 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:09,117 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:11,118 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:13,118 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:14,208 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:36:14,209 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:15,119 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:15,207 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:36:15,208 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:36:17,119 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:19,121 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:19,726 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:21,122 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:23,123 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:25,123 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:25,124 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:27,125 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:29,127 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:30,468 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:30,468 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:36:30,469 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:36:31,128 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:33,130 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:35,131 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:35,820 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:37,132 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:39,133 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:41,135 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:41,184 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:43,136 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:44,209 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:36:45,137 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:45,679 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:36:45,680 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:36:46,534 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:47,139 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:49,140 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:51,141 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:52,028 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:53,142 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:55,143 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:57,144 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:36:57,431 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:36:59,145 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:01,024 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:37:01,026 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:37:01,147 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:02,834 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:03,149 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:05,150 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:07,151 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:08,218 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:09,152 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:11,154 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:13,155 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:13,605 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:14,211 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:37:15,156 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:16,357 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:37:16,358 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:37:17,157 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:19,071 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:19,159 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:21,160 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:23,161 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:24,464 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:25,162 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:27,163 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:29,164 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:29,869 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:31,166 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:31,356 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:37:31,357 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:37:33,167 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:34,168 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:35,495 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:40,496 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:44,213 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:37:45,515 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:46,103 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-11 04:37:46,104 DEBUG   SenderThread:167281 [sender.py:send():379] send: history
+2023-08-11 04:37:46,104 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: summary_record
+2023-08-11 04:37:46,104 INFO    SenderThread:167281 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 04:37:46,174 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/wandb-summary.json
+2023-08-11 04:37:46,356 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:37:46,356 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:37:47,175 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:48,176 INFO    Thread-25 :167281 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_043310-du0m680f/files/output.log
+2023-08-11 04:37:51,426 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:37:56,429 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:01,356 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:38:01,357 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:38:01,442 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:06,443 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:11,445 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:14,215 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:38:16,357 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:38:16,358 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:38:16,483 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:21,484 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:26,485 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:31,356 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:38:31,357 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:38:32,454 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:37,456 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:42,457 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:44,218 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:38:46,357 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:38:46,357 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:38:48,430 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:53,431 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:38:58,432 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:01,357 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:39:01,358 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:39:03,439 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:08,440 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:13,441 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:14,218 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:39:16,357 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:39:16,358 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:39:18,463 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:23,465 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:28,466 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:31,357 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:39:31,358 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:39:33,477 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:38,479 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:43,480 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:44,220 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:39:46,359 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:39:46,360 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:39:49,425 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:54,426 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:39:59,428 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:01,359 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:40:01,360 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:40:04,462 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:09,463 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:14,221 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:40:15,222 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:16,357 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:40:16,358 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:40:20,452 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:25,453 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:30,455 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:31,358 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:40:31,359 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:40:35,520 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:40,521 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:44,224 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:40:46,225 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:46,358 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:40:46,359 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:40:51,440 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:40:56,441 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:01,359 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:41:01,359 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:41:01,505 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:06,506 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:11,508 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:14,224 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:41:16,360 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:41:16,361 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:41:17,436 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:22,437 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:27,439 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:31,359 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:41:31,359 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:41:32,446 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:37,448 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:42,449 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:44,226 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:41:46,359 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:41:46,361 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:41:47,460 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:52,462 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:41:57,463 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:01,360 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:42:01,360 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:42:03,437 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:08,439 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:13,440 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:14,228 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:42:16,360 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:42:16,361 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:42:18,502 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:23,504 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:28,505 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:31,361 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:42:31,362 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:42:34,489 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:39,491 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:44,229 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:42:45,230 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:46,361 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:42:46,361 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:42:50,492 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:42:55,493 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:00,495 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:01,362 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:43:01,363 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:43:05,514 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:10,516 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:14,238 DEBUG   SenderThread:167281 [sender.py:send():379] send: stats
+2023-08-11 04:43:16,240 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:16,362 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:43:16,363 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:43:21,421 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:26,422 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:31,362 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 04:43:31,363 DEBUG   SenderThread:167281 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 04:43:31,435 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 04:43:36,436 DEBUG   HandlerThread:167281 [handler.py:handle_request():144] handle_request: status_report

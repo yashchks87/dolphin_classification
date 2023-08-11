@@ -1,0 +1,31 @@
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_setup.py:_flush():76] Configure stats pid to 301911
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/dolphin_classification/notebooks/wandb/settings
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_init.py:_log_setup():507] Logging user logs to /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_192948-06x5rj39/logs/debug.log
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_init.py:_log_setup():508] Logging internal logs to /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_192948-06x5rj39/logs/debug-internal.log
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_init.py:init():547] calling init triggers
+2023-08-11 19:29:48,134 INFO    MainThread:301911 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'batch_size': 176, 'flip_left_right': True}
+2023-08-11 19:29:48,135 INFO    MainThread:301911 [wandb_init.py:init():596] starting backend
+2023-08-11 19:29:48,135 INFO    MainThread:301911 [wandb_init.py:init():600] setting up manager
+2023-08-11 19:29:48,136 INFO    MainThread:301911 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-11 19:29:48,137 INFO    MainThread:301911 [wandb_init.py:init():606] backend started and connected
+2023-08-11 19:29:48,149 INFO    MainThread:301911 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-08-11 19:29:48,150 INFO    MainThread:301911 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-11 19:29:48,150 INFO    MainThread:301911 [wandb_init.py:init():697] updated telemetry
+2023-08-11 19:29:48,497 INFO    MainThread:301911 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-11 19:30:48,584 ERROR   MainThread:301911 [wandb_init.py:init():756] encountered error: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-08-11 19:30:48,624 ERROR   MainThread:301911 [wandb_init.py:init():1165] Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1147, in init
+    run = wi.init()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 762, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

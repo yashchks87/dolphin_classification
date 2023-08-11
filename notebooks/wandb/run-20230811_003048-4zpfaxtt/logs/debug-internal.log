@@ -1,0 +1,230 @@
+2023-08-11 00:30:52,582 INFO    StreamThr :102120 [internal.py:wandb_internal():86] W&B internal server running at pid: 102120, started at: 2023-08-11 00:30:52.580874
+2023-08-11 00:30:52,585 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status
+2023-08-11 00:30:52,588 INFO    WriterThread:102120 [datastore.py:open_for_write():85] open: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/run-4zpfaxtt.wandb
+2023-08-11 00:30:52,592 DEBUG   SenderThread:102120 [sender.py:send():379] send: header
+2023-08-11 00:30:52,592 DEBUG   SenderThread:102120 [sender.py:send():379] send: run
+2023-08-11 00:30:52,853 INFO    SenderThread:102120 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files
+2023-08-11 00:30:52,853 INFO    SenderThread:102120 [sender.py:_start_run_threads():1121] run started: 4zpfaxtt with start time 1691713851.630296
+2023-08-11 00:30:52,861 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: summary_record
+2023-08-11 00:30:52,862 INFO    SenderThread:102120 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 00:30:52,876 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: check_version
+2023-08-11 00:30:52,877 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: check_version
+2023-08-11 00:30:52,997 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: run_start
+2023-08-11 00:30:52,999 DEBUG   HandlerThread:102120 [system_info.py:__init__():31] System info init
+2023-08-11 00:30:52,999 DEBUG   HandlerThread:102120 [system_info.py:__init__():46] System info init done
+2023-08-11 00:30:52,999 INFO    HandlerThread:102120 [system_monitor.py:start():181] Starting system monitor
+2023-08-11 00:30:52,999 INFO    SystemMonitor:102120 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-11 00:30:53,002 INFO    HandlerThread:102120 [system_monitor.py:probe():201] Collecting system info
+2023-08-11 00:30:53,003 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started cpu monitoring
+2023-08-11 00:30:53,004 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started disk monitoring
+2023-08-11 00:30:53,007 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started gpu monitoring
+2023-08-11 00:30:53,010 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started memory monitoring
+2023-08-11 00:30:53,014 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started network monitoring
+2023-08-11 00:30:53,030 DEBUG   HandlerThread:102120 [system_info.py:probe():195] Probing system
+2023-08-11 00:30:53,032 DEBUG   HandlerThread:102120 [system_info.py:_probe_git():180] Probing git
+2023-08-11 00:30:53,061 DEBUG   HandlerThread:102120 [system_info.py:_probe_git():188] Probing git done
+2023-08-11 00:30:53,062 DEBUG   HandlerThread:102120 [system_info.py:probe():240] Probing system done
+2023-08-11 00:30:53,062 DEBUG   HandlerThread:102120 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-73-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-08-11T00:30:53.030651', 'startedAt': '2023-08-11T00:30:48.045866', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/yashchks87/dolphin_classification.git', 'commit': 'f268f79c93e36076fcc1836df150d816c8389518'}, 'email': None, 'root': '/home/ubuntu/dolphin_classification', 'host': '209-20-157-48', 'username': 'ubuntu', 'executable': '/usr/bin/python', 'cpu_count': 26, 'cpu_count_logical': 26, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}, {'current': 2000.0, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 992.2479553222656, 'used': 146.80641555786133}, 'gpu': 'NVIDIA H100 PCIe', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA H100 PCIe', 'memory_total': 85520809984}], 'memory': {'total': 196.5813102722168}}
+2023-08-11 00:30:53,062 INFO    HandlerThread:102120 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-11 00:30:53,062 INFO    HandlerThread:102120 [system_monitor.py:probe():214] Publishing system info
+2023-08-11 00:30:53,062 DEBUG   HandlerThread:102120 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-11 00:30:53,064 DEBUG   HandlerThread:102120 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-11 00:30:53,065 INFO    HandlerThread:102120 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-11 00:30:53,068 DEBUG   SenderThread:102120 [sender.py:send():379] send: files
+2023-08-11 00:30:53,069 INFO    SenderThread:102120 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-11 00:30:53,099 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 00:30:53,101 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 00:30:53,156 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: pause
+2023-08-11 00:30:53,156 INFO    HandlerThread:102120 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-11 00:30:53,156 INFO    HandlerThread:102120 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-11 00:30:53,157 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-11 00:30:53,157 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-11 00:30:53,157 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-11 00:30:53,160 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-11 00:30:53,163 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined disk monitor
+2023-08-11 00:30:53,259 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-11 00:30:53,259 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined memory monitor
+2023-08-11 00:30:53,259 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined network monitor
+2023-08-11 00:30:53,293 DEBUG   SenderThread:102120 [sender.py:send():379] send: telemetry
+2023-08-11 00:30:53,367 INFO    wandb-upload_0:102120 [upload_job.py:push():131] Uploaded file /tmp/tmp26d9z42mwandb/l8jwu8uj-wandb-metadata.json
+2023-08-11 00:30:53,856 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/requirements.txt
+2023-08-11 00:30:53,856 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/wandb-summary.json
+2023-08-11 00:30:53,857 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/wandb-metadata.json
+2023-08-11 00:30:58,296 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:03,297 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:08,098 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 00:31:08,100 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 00:31:09,205 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:14,207 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:19,208 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:23,098 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-11 00:31:23,100 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: stop_status
+2023-08-11 00:31:24,249 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:24,872 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/config.yaml
+2023-08-11 00:31:29,331 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:32,979 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: resume
+2023-08-11 00:31:32,979 INFO    HandlerThread:102120 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-11 00:31:32,979 INFO    HandlerThread:102120 [system_monitor.py:start():181] Starting system monitor
+2023-08-11 00:31:32,980 INFO    SystemMonitor:102120 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-11 00:31:32,981 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started cpu monitoring
+2023-08-11 00:31:32,983 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started disk monitoring
+2023-08-11 00:31:32,985 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started gpu monitoring
+2023-08-11 00:31:32,986 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started memory monitoring
+2023-08-11 00:31:32,993 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started network monitoring
+2023-08-11 00:31:32,993 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: pause
+2023-08-11 00:31:32,993 INFO    HandlerThread:102120 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-11 00:31:32,994 INFO    HandlerThread:102120 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-11 00:31:32,995 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-11 00:31:32,996 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-11 00:31:32,999 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-11 00:31:32,997 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined disk monitor
+2023-08-11 00:31:32,999 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-11 00:31:33,077 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-11 00:31:33,078 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined memory monitor
+2023-08-11 00:31:33,078 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined network monitor
+2023-08-11 00:31:33,079 DEBUG   SenderThread:102120 [sender.py:send():379] send: stats
+2023-08-11 00:31:33,671 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: resume
+2023-08-11 00:31:33,672 INFO    HandlerThread:102120 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-11 00:31:33,672 INFO    HandlerThread:102120 [system_monitor.py:start():181] Starting system monitor
+2023-08-11 00:31:33,672 INFO    SystemMonitor:102120 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-11 00:31:33,673 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started cpu monitoring
+2023-08-11 00:31:33,674 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started disk monitoring
+2023-08-11 00:31:33,675 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started gpu monitoring
+2023-08-11 00:31:33,677 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started memory monitoring
+2023-08-11 00:31:33,678 INFO    SystemMonitor:102120 [interfaces.py:start():190] Started network monitoring
+2023-08-11 00:31:33,878 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/output.log
+2023-08-11 00:31:34,385 DEBUG   SenderThread:102120 [sender.py:send():379] send: telemetry
+2023-08-11 00:31:34,386 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:34,387 DEBUG   SenderThread:102120 [sender.py:send():379] send: exit
+2023-08-11 00:31:34,388 INFO    SenderThread:102120 [sender.py:send_exit():584] handling exit code: 0
+2023-08-11 00:31:34,388 INFO    SenderThread:102120 [sender.py:send_exit():586] handling runtime: 1
+2023-08-11 00:31:34,389 INFO    SenderThread:102120 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 00:31:34,389 INFO    SenderThread:102120 [sender.py:send_exit():592] send defer
+2023-08-11 00:31:34,390 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,390 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-11 00:31:34,391 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,391 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-11 00:31:34,391 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 1
+2023-08-11 00:31:34,392 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,392 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-11 00:31:34,393 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,393 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-11 00:31:34,393 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 2
+2023-08-11 00:31:34,393 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,394 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-11 00:31:34,394 INFO    HandlerThread:102120 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-11 00:31:34,394 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-11 00:31:34,394 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-11 00:31:34,394 DEBUG   SystemMonitor:102120 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-11 00:31:34,397 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-11 00:31:34,397 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined disk monitor
+2023-08-11 00:31:34,439 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-11 00:31:34,440 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined memory monitor
+2023-08-11 00:31:34,440 INFO    HandlerThread:102120 [interfaces.py:finish():202] Joined network monitor
+2023-08-11 00:31:34,441 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,441 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-11 00:31:34,441 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 3
+2023-08-11 00:31:34,441 DEBUG   SenderThread:102120 [sender.py:send():379] send: stats
+2023-08-11 00:31:34,443 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,443 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-11 00:31:34,444 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,444 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-11 00:31:34,444 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 4
+2023-08-11 00:31:34,445 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,445 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-11 00:31:34,446 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,446 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-11 00:31:34,446 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 5
+2023-08-11 00:31:34,447 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,447 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-11 00:31:34,448 DEBUG   SenderThread:102120 [sender.py:send():379] send: summary
+2023-08-11 00:31:34,448 INFO    SenderThread:102120 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-11 00:31:34,449 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,449 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-11 00:31:34,449 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 6
+2023-08-11 00:31:34,450 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,450 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-11 00:31:34,451 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,451 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-11 00:31:34,457 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: status_report
+2023-08-11 00:31:34,523 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 7
+2023-08-11 00:31:34,524 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:34,524 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-11 00:31:34,525 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:34,525 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-11 00:31:34,878 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/wandb-summary.json
+2023-08-11 00:31:34,879 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/config.yaml
+2023-08-11 00:31:35,389 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-11 00:31:35,782 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 8
+2023-08-11 00:31:35,782 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: poll_exit
+2023-08-11 00:31:35,785 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:35,785 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-11 00:31:35,786 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:35,786 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-11 00:31:35,786 INFO    SenderThread:102120 [job_builder.py:build():281] Attempting to build job artifact
+2023-08-11 00:31:35,787 INFO    SenderThread:102120 [job_builder.py:build():297] run is notebook based run
+2023-08-11 00:31:35,787 INFO    SenderThread:102120 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-08-11 00:31:35,787 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 9
+2023-08-11 00:31:35,788 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:35,788 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-11 00:31:35,789 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:35,789 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-11 00:31:35,789 INFO    SenderThread:102120 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-08-11 00:31:35,879 INFO    Thread-37 :102120 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/output.log
+2023-08-11 00:31:35,881 INFO    SenderThread:102120 [dir_watcher.py:finish():388] scan: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files
+2023-08-11 00:31:35,881 INFO    SenderThread:102120 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/output.log output.log
+2023-08-11 00:31:35,882 INFO    SenderThread:102120 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/wandb-summary.json wandb-summary.json
+2023-08-11 00:31:35,888 INFO    SenderThread:102120 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/config.yaml config.yaml
+2023-08-11 00:31:35,888 INFO    SenderThread:102120 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/wandb-metadata.json wandb-metadata.json
+2023-08-11 00:31:35,889 INFO    SenderThread:102120 [dir_watcher.py:finish():402] scan save: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/requirements.txt requirements.txt
+2023-08-11 00:31:35,895 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 10
+2023-08-11 00:31:35,896 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:35,896 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-11 00:31:35,910 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:35,910 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-11 00:31:35,910 INFO    SenderThread:102120 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-11 00:31:36,074 INFO    wandb-upload_0:102120 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/output.log
+2023-08-11 00:31:36,158 INFO    wandb-upload_1:102120 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/wandb-summary.json
+2023-08-11 00:31:36,215 INFO    wandb-upload_2:102120 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/config.yaml
+2023-08-11 00:31:36,217 INFO    wandb-upload_3:102120 [upload_job.py:push():131] Uploaded file /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/files/requirements.txt
+2023-08-11 00:31:36,390 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-11 00:31:36,391 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: poll_exit
+2023-08-11 00:31:36,418 INFO    Thread-36 :102120 [sender.py:transition_state():612] send defer: 11
+2023-08-11 00:31:36,421 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:36,421 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-11 00:31:36,422 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:36,422 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-11 00:31:36,422 INFO    SenderThread:102120 [file_pusher.py:join():164] waiting for file pusher
+2023-08-11 00:31:36,422 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 12
+2023-08-11 00:31:36,423 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:36,423 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-11 00:31:36,424 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:36,424 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-11 00:31:36,424 INFO    SenderThread:102120 [file_stream.py:finish():593] file stream finish called
+2023-08-11 00:31:36,489 INFO    SenderThread:102120 [file_stream.py:finish():597] file stream finish is done
+2023-08-11 00:31:36,490 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 13
+2023-08-11 00:31:36,490 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:36,490 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-11 00:31:36,491 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:36,492 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-11 00:31:36,492 INFO    SenderThread:102120 [sender.py:transition_state():612] send defer: 14
+2023-08-11 00:31:36,492 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: defer
+2023-08-11 00:31:36,493 INFO    HandlerThread:102120 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-11 00:31:36,494 DEBUG   SenderThread:102120 [sender.py:send():379] send: final
+2023-08-11 00:31:36,494 DEBUG   SenderThread:102120 [sender.py:send():379] send: footer
+2023-08-11 00:31:36,494 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: defer
+2023-08-11 00:31:36,494 INFO    SenderThread:102120 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-11 00:31:36,497 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-11 00:31:36,498 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: poll_exit
+2023-08-11 00:31:36,500 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: server_info
+2023-08-11 00:31:36,501 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-11 00:31:36,501 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-11 00:31:36,501 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: job_info
+2023-08-11 00:31:36,503 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: server_info
+2023-08-11 00:31:36,546 DEBUG   SenderThread:102120 [sender.py:send_request():406] send_request: job_info
+2023-08-11 00:31:36,553 DEBUG   HandlerThread:102120 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-11 00:31:36,553 INFO    HandlerThread:102120 [handler.py:finish():857] shutting down handler
+2023-08-11 00:31:37,503 INFO    WriterThread:102120 [datastore.py:close():294] close: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230811_003048-4zpfaxtt/run-4zpfaxtt.wandb
+2023-08-11 00:31:37,546 INFO    SenderThread:102120 [sender.py:finish():1552] shutting down sender
+2023-08-11 00:31:37,546 INFO    SenderThread:102120 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-11 00:31:37,547 INFO    SenderThread:102120 [file_pusher.py:join():164] waiting for file pusher

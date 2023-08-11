@@ -1,0 +1,98 @@
+
+
+Epoch: 0:  22%|██▏       | 7/32 [00:05<00:11,  2.21batch/s, loss=3.09]
+tensor(3.4870, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2750, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.4135, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.3793, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.3871, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1948, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2860, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0851, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1085, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2133, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2886, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1699, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2587, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0873, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1270, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0203, device='cuda:0', grad_fn=<DivBackward1>)
+
+Epoch: 0:  84%|████████▍ | 27/32 [00:07<00:00,  9.57batch/s, loss=3]
+tensor(3.2688, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1356, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1471, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2089, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2364, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2198, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2768, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.9839, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0361, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1070, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.9857, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.9992, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.8596, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0106, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.9359, device='cuda:0', grad_fn=<DivBackward1>)
+Epoch: 0: 100%|██████████| 32/32 [00:08<00:00,  3.82batch/s, loss=2.94]
+
+
+Epoch: 0:   0%|          | 0/3126 [00:05<?, ?batch/s]
+Using cache found in /home/ubuntu/.cache/torch/hub/pytorch_vision_v0.10.0
+/usr/lib/python3/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/lib/python3/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/usr/lib/python3/dist-packages/torchvision/models/inception.py:43: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn(
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fe2d75c38b0>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/torch/utils/data/dataloader.py", line 1478, in __del__
+    self._shutdown_workers()
+  File "/usr/lib/python3/dist-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.8/multiprocessing/popen_fork.py", line 44, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+
+Epoch: 0:  12%|█▎        | 4/32 [00:05<00:25,  1.09batch/s, loss=3.32]
+tensor(3.4485, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.3198, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.4240, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2076, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.3219, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2298, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2200, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2257, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2613, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.3973, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2642, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1819, device='cuda:0', grad_fn=<DivBackward1>)
+
+Epoch: 0:  75%|███████▌  | 24/32 [00:07<00:00,  9.67batch/s, loss=2.89]
+tensor(3.2233, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2954, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1086, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1681, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0162, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1571, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.2872, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1747, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.9813, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0537, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.8897, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.9505, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0892, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0752, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.9180, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.0123, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(3.1686, device='cuda:0', grad_fn=<DivBackward1>)
+tensor(2.8663, device='cuda:0', grad_fn=<DivBackward1>)
+Epoch: 0: 100%|██████████| 32/32 [00:08<00:00,  3.80batch/s, loss=2.89]
+  0%|          | 0/32 [00:00<?, ?batch/s]
