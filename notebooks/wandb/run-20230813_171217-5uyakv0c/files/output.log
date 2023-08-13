@@ -1,0 +1,22 @@
+
+
+Epoch: 0:   0%|          | 0/391 [00:10<?, ?batch/s]
+True
+True
+True
+True
+True
+
+Epoch: 0:   1%|          | 2/391 [00:19<52:49,  8.15s/batch, loss=3.54]
+True
+True
+True
+True
+True
+
+Epoch: 0:   1%|▏         | 5/391 [00:21<14:26,  2.24s/batch, loss=3.5]
+True
+True
+True
+
+

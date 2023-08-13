@@ -1,0 +1,45 @@
+
+
+Epoch: 0:   0%|          | 0/782 [00:05<?, ?batch/s]
+True
+True
+True
+True
+True
+True
+True
+
+Epoch: 0:   1%|          | 4/782 [00:13<25:32,  1.97s/batch, loss=3.41]
+True
+True
+True
+True
+True
+True
+True
+True
+True
+
+Epoch: 0:   1%|▏         | 10/782 [00:15<06:39,  1.93batch/s, loss=3.39]
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+
+Epoch: 0:   2%|▏         | 15/782 [00:17<05:07,  2.49batch/s, loss=3.24]
+True
+True
+True
+True
+True
+True
+True
+
+

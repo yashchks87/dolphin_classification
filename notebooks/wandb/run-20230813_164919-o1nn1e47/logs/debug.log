@@ -1,0 +1,34 @@
+2023-08-13 16:49:19,776 INFO    MainThread:72670 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-13 16:49:19,776 INFO    MainThread:72670 [wandb_setup.py:_flush():76] Configure stats pid to 72670
+2023-08-13 16:49:19,776 INFO    MainThread:72670 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2023-08-13 16:49:19,776 INFO    MainThread:72670 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/dolphin_classification/notebooks/wandb/settings
+2023-08-13 16:49:19,777 INFO    MainThread:72670 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-13 16:49:19,777 INFO    MainThread:72670 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-13 16:49:19,777 INFO    MainThread:72670 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-13 16:49:19,777 INFO    MainThread:72670 [wandb_init.py:_log_setup():507] Logging user logs to /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_164919-o1nn1e47/logs/debug.log
+2023-08-13 16:49:19,777 INFO    MainThread:72670 [wandb_init.py:_log_setup():508] Logging internal logs to /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_164919-o1nn1e47/logs/debug-internal.log
+2023-08-13 16:49:19,777 INFO    MainThread:72670 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fbf7b23daf0>
+2023-08-13 16:49:19,778 INFO    MainThread:72670 [wandb_init.py:init():547] calling init triggers
+2023-08-13 16:49:19,778 INFO    MainThread:72670 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'arch': 'InceptionV4'}
+2023-08-13 16:49:19,778 INFO    MainThread:72670 [wandb_init.py:init():596] starting backend
+2023-08-13 16:49:19,778 INFO    MainThread:72670 [wandb_init.py:init():600] setting up manager
+2023-08-13 16:49:19,780 INFO    MainThread:72670 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-13 16:49:19,782 INFO    MainThread:72670 [wandb_init.py:init():606] backend started and connected
+2023-08-13 16:49:19,804 INFO    MainThread:72670 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-08-13 16:49:19,804 INFO    MainThread:72670 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-13 16:49:19,805 INFO    MainThread:72670 [wandb_init.py:init():697] updated telemetry
+2023-08-13 16:49:19,929 INFO    MainThread:72670 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-13 16:49:20,154 INFO    MainThread:72670 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-13 16:49:20,203 INFO    MainThread:72670 [wandb_run.py:_on_init():2189] got version response 
+2023-08-13 16:49:20,203 INFO    MainThread:72670 [wandb_init.py:init():781] starting run threads in backend
+2023-08-13 16:49:23,351 WARNING MsgRouterThr:72670 [router.py:message_loop():77] message_loop has been closed
+2023-08-13 16:49:30,292 ERROR   MainThread:72670 [wandb_init.py:init():1165] transport failed
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1147, in init
+    run = wi.init()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 792, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed

@@ -1,0 +1,74 @@
+2023-08-13 16:53:43,225 INFO    StreamThr :76387 [internal.py:wandb_internal():86] W&B internal server running at pid: 76387, started at: 2023-08-13 16:53:43.224364
+2023-08-13 16:53:43,232 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status
+2023-08-13 16:53:43,243 INFO    WriterThread:76387 [datastore.py:open_for_write():85] open: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/run-rgeyrwwq.wandb
+2023-08-13 16:53:43,244 DEBUG   SenderThread:76387 [sender.py:send():379] send: header
+2023-08-13 16:53:43,394 DEBUG   SenderThread:76387 [sender.py:send():379] send: run
+2023-08-13 16:53:43,636 INFO    SenderThread:76387 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files
+2023-08-13 16:53:43,636 INFO    SenderThread:76387 [sender.py:_start_run_threads():1121] run started: rgeyrwwq with start time 1691945623.223659
+2023-08-13 16:53:43,636 DEBUG   SenderThread:76387 [sender.py:send_request():406] send_request: summary_record
+2023-08-13 16:53:43,637 INFO    SenderThread:76387 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-13 16:53:43,651 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: check_version
+2023-08-13 16:53:43,651 DEBUG   SenderThread:76387 [sender.py:send_request():406] send_request: check_version
+2023-08-13 16:53:43,735 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: run_start
+2023-08-13 16:53:43,744 DEBUG   HandlerThread:76387 [system_info.py:__init__():31] System info init
+2023-08-13 16:53:43,745 DEBUG   HandlerThread:76387 [system_info.py:__init__():46] System info init done
+2023-08-13 16:53:43,745 INFO    HandlerThread:76387 [system_monitor.py:start():181] Starting system monitor
+2023-08-13 16:53:43,745 INFO    SystemMonitor:76387 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-13 16:53:43,746 INFO    HandlerThread:76387 [system_monitor.py:probe():201] Collecting system info
+2023-08-13 16:53:43,747 INFO    SystemMonitor:76387 [interfaces.py:start():190] Started cpu monitoring
+2023-08-13 16:53:43,749 INFO    SystemMonitor:76387 [interfaces.py:start():190] Started disk monitoring
+2023-08-13 16:53:43,752 INFO    SystemMonitor:76387 [interfaces.py:start():190] Started gpu monitoring
+2023-08-13 16:53:43,754 INFO    SystemMonitor:76387 [interfaces.py:start():190] Started memory monitoring
+2023-08-13 16:53:43,756 INFO    SystemMonitor:76387 [interfaces.py:start():190] Started network monitoring
+2023-08-13 16:53:43,769 DEBUG   HandlerThread:76387 [system_info.py:probe():195] Probing system
+2023-08-13 16:53:43,779 DEBUG   HandlerThread:76387 [system_info.py:_probe_git():180] Probing git
+2023-08-13 16:53:43,800 DEBUG   HandlerThread:76387 [system_info.py:_probe_git():188] Probing git done
+2023-08-13 16:53:43,800 DEBUG   HandlerThread:76387 [system_info.py:probe():240] Probing system done
+2023-08-13 16:53:43,800 DEBUG   HandlerThread:76387 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-52-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-08-13T16:53:43.769699', 'startedAt': '2023-08-13T16:53:43.217182', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/yashchks87/dolphin_classification.git', 'commit': '1a0f5dcb8a0a18e32ac747e17806867bf98213d7'}, 'email': None, 'root': '/home/ubuntu/dolphin_classification', 'host': '104-171-203-57', 'username': 'ubuntu', 'executable': '/usr/bin/python', 'cpu_count': 28, 'cpu_count_logical': 28, 'cpu_freq': {'current': 2499.991000000001, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}, {'current': 2499.991, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 992.2479553222656, 'used': 77.96078109741211}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 196.58182907104492}}
+2023-08-13 16:53:43,800 INFO    HandlerThread:76387 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-13 16:53:43,800 INFO    HandlerThread:76387 [system_monitor.py:probe():214] Publishing system info
+2023-08-13 16:53:43,800 DEBUG   HandlerThread:76387 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-13 16:53:43,801 DEBUG   HandlerThread:76387 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-13 16:53:43,802 INFO    HandlerThread:76387 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-13 16:53:43,809 DEBUG   SenderThread:76387 [sender.py:send():379] send: files
+2023-08-13 16:53:43,809 INFO    SenderThread:76387 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-13 16:53:43,837 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-13 16:53:43,838 DEBUG   SenderThread:76387 [sender.py:send_request():406] send_request: stop_status
+2023-08-13 16:53:43,988 DEBUG   SenderThread:76387 [sender.py:send():379] send: telemetry
+2023-08-13 16:53:44,082 INFO    wandb-upload_0:76387 [upload_job.py:push():131] Uploaded file /tmp/tmp8c2hcx1wwandb/t1tu7ojs-wandb-metadata.json
+2023-08-13 16:53:44,637 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/output.log
+2023-08-13 16:53:44,638 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/requirements.txt
+2023-08-13 16:53:44,638 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/wandb-summary.json
+2023-08-13 16:53:44,638 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/wandb-metadata.json
+2023-08-13 16:53:46,637 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/output.log
+2023-08-13 16:53:48,992 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:53:52,640 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/output.log
+2023-08-13 16:53:54,868 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:53:55,642 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/output.log
+2023-08-13 16:53:55,943 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: pause
+2023-08-13 16:53:55,943 INFO    HandlerThread:76387 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-13 16:53:55,943 INFO    HandlerThread:76387 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-13 16:53:55,944 INFO    HandlerThread:76387 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-13 16:53:55,944 INFO    HandlerThread:76387 [interfaces.py:finish():202] Joined disk monitor
+2023-08-13 16:53:55,946 DEBUG   SystemMonitor:76387 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-13 16:53:55,946 DEBUG   SystemMonitor:76387 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-13 16:53:55,946 DEBUG   SystemMonitor:76387 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-13 16:53:56,022 INFO    HandlerThread:76387 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-13 16:53:56,022 INFO    HandlerThread:76387 [interfaces.py:finish():202] Joined memory monitor
+2023-08-13 16:53:56,022 INFO    HandlerThread:76387 [interfaces.py:finish():202] Joined network monitor
+2023-08-13 16:53:56,023 DEBUG   SenderThread:76387 [sender.py:send():379] send: stats
+2023-08-13 16:53:58,643 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/output.log
+2023-08-13 16:53:58,837 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-13 16:53:58,839 DEBUG   SenderThread:76387 [sender.py:send_request():406] send_request: stop_status
+2023-08-13 16:53:59,926 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:54:04,928 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:54:09,930 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:54:13,837 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-13 16:54:13,839 DEBUG   SenderThread:76387 [sender.py:send_request():406] send_request: stop_status
+2023-08-13 16:54:14,988 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:54:15,651 INFO    Thread-12 :76387 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/dolphin_classification/notebooks/wandb/run-20230813_165343-rgeyrwwq/files/config.yaml
+2023-08-13 16:54:20,094 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:54:25,096 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
+2023-08-13 16:54:28,838 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-13 16:54:28,839 DEBUG   SenderThread:76387 [sender.py:send_request():406] send_request: stop_status
+2023-08-13 16:54:30,953 DEBUG   HandlerThread:76387 [handler.py:handle_request():144] handle_request: status_report
