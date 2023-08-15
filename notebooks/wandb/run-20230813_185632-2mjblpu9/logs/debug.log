@@ -27,3 +27,5 @@ config: {'arch': 'InceptionV4'}
 2023-08-13 18:56:32,695 INFO    MainThread:141104 [wandb_run.py:_redirect():2079] Wrapping output streams.
 2023-08-13 18:56:32,695 INFO    MainThread:141104 [wandb_run.py:_redirect():2104] Redirects installed.
 2023-08-13 18:56:32,696 INFO    MainThread:141104 [wandb_init.py:init():822] run started, returning control to user process
+2023-08-13 19:01:49,677 INFO    MainThread:141104 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-08-13 19:01:49,678 INFO    MainThread:141104 [wandb_init.py:_pause_backend():418] pausing backend

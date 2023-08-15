@@ -1,0 +1,188 @@
+{
+    "os": "Linux-5.15.0-52-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-08-14T02:40:07.632346",
+    "startedAt": "2023-08-14T02:40:07.239609",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yashchks87/dolphin_classification.git",
+        "commit": "40b6c4b73f73823c92342f7bec89ce4f1cd3e041"
+    },
+    "email": "yashchks87@mgmail.com",
+    "root": "/home/ubuntu/dolphin_classification",
+    "host": "104-171-203-57",
+    "username": "ubuntu",
+    "executable": "/usr/bin/python",
+    "cpu_count": 28,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 2499.991000000001,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.991,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 992.2479553222656,
+        "used": 78.02972793579102
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 196.58182907104492
+    }
+}
