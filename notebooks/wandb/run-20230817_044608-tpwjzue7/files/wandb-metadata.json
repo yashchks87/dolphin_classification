@@ -1,0 +1,174 @@
+{
+    "os": "Linux-5.15.0-73-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-08-17T04:46:08.930261",
+    "startedAt": "2023-08-17T04:46:08.299284",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yashchks87/dolphin_classification.git",
+        "commit": "6086a5640e880db6c577a9444341e16cd387afed"
+    },
+    "email": null,
+    "root": "/home/ubuntu/dolphin_classification",
+    "host": "209-20-159-52",
+    "username": "ubuntu",
+    "executable": "/usr/bin/python",
+    "cpu_count": 26,
+    "cpu_count_logical": 26,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 992.2479553222656,
+        "used": 138.4057960510254
+    },
+    "gpu": "NVIDIA H100 PCIe",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA H100 PCIe",
+            "memory_total": 85520809984
+        }
+    ],
+    "memory": {
+        "total": 196.5813102722168
+    }
+}
