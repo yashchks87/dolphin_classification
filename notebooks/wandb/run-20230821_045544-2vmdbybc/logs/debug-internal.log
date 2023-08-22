@@ -1,0 +1,63 @@
+2023-08-21 04:55:44,379 INFO    StreamThr :11641 [internal.py:wandb_internal():88] W&B internal server running at pid: 11641, started at: 2023-08-21 04:55:44.378429
+2023-08-21 04:55:44,383 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: status
+2023-08-21 04:55:44,384 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: status
+2023-08-21 04:55:44,386 DEBUG   SenderThread:11641 [sender.py:send():303] send: header
+2023-08-21 04:55:44,386 INFO    WriterThread:11641 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/run-2vmdbybc.wandb
+2023-08-21 04:55:44,440 DEBUG   SenderThread:11641 [sender.py:send():303] send: run
+2023-08-21 04:55:44,666 INFO    SenderThread:11641 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files
+2023-08-21 04:55:44,666 INFO    SenderThread:11641 [sender.py:_start_run_threads():928] run started: 2vmdbybc with start time 1692593744.37359
+2023-08-21 04:55:44,666 DEBUG   SenderThread:11641 [sender.py:send():303] send: summary
+2023-08-21 04:55:44,667 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: check_version
+2023-08-21 04:55:44,667 INFO    SenderThread:11641 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-08-21 04:55:44,668 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: check_version
+2023-08-21 04:55:44,729 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: run_start
+2023-08-21 04:55:44,735 DEBUG   HandlerThread:11641 [meta.py:__init__():34] meta init
+2023-08-21 04:55:44,735 DEBUG   HandlerThread:11641 [meta.py:__init__():49] meta init done
+2023-08-21 04:55:44,735 DEBUG   HandlerThread:11641 [meta.py:probe():215] probe
+2023-08-21 04:55:44,750 DEBUG   HandlerThread:11641 [meta.py:_setup_git():205] setup git
+2023-08-21 04:55:44,769 DEBUG   HandlerThread:11641 [meta.py:_setup_git():212] setup git done
+2023-08-21 04:55:44,769 DEBUG   HandlerThread:11641 [meta.py:_save_pip():53] save pip
+2023-08-21 04:55:44,770 DEBUG   HandlerThread:11641 [meta.py:_save_pip():67] save pip done
+2023-08-21 04:55:44,771 DEBUG   HandlerThread:11641 [meta.py:probe():253] probe done
+2023-08-21 04:55:44,980 DEBUG   SenderThread:11641 [sender.py:send():303] send: files
+2023-08-21 04:55:44,980 INFO    SenderThread:11641 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-08-21 04:55:44,992 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:55:44,993 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: stop_status
+2023-08-21 04:55:45,105 DEBUG   SenderThread:11641 [sender.py:send():303] send: telemetry
+2023-08-21 04:55:45,215 INFO    Thread-17 :11641 [upload_job.py:push():143] Uploaded file /tmp/tmpwh6xeh6cwandb/1v0bupvd-wandb-metadata.json
+2023-08-21 04:55:45,668 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/requirements.txt
+2023-08-21 04:55:45,668 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/wandb-metadata.json
+2023-08-21 04:55:45,668 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/wandb-summary.json
+2023-08-21 04:55:46,667 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:55:48,667 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:00,108 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:56:00,108 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: stop_status
+2023-08-21 04:56:13,168 DEBUG   SenderThread:11641 [sender.py:send():303] send: stats
+2023-08-21 04:56:14,677 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:15,264 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:56:15,291 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: stop_status
+2023-08-21 04:56:15,677 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/config.yaml
+2023-08-21 04:56:20,679 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:22,680 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:24,682 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:26,683 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:28,684 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:30,470 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:56:30,470 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: stop_status
+2023-08-21 04:56:30,685 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:32,686 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:34,687 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:36,688 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:38,689 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:40,690 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:42,691 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:43,648 DEBUG   SenderThread:11641 [sender.py:send():303] send: stats
+2023-08-21 04:56:44,692 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:45,567 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:56:45,568 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: stop_status
+2023-08-21 04:56:46,693 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:48,695 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:50,696 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:56:52,697 INFO    Thread-13 :11641 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_045544-2vmdbybc/files/output.log
+2023-08-21 04:57:00,695 DEBUG   HandlerThread:11641 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:57:00,695 DEBUG   SenderThread:11641 [sender.py:send_request():317] send_request: stop_status

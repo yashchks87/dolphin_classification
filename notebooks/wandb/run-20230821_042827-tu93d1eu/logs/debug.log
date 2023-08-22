@@ -1,0 +1,30 @@
+2023-08-21 04:28:27,155 INFO    MainThread:90781 [wandb_setup.py:_flush():68] Configure stats pid to 90781
+2023-08-21 04:28:27,155 INFO    MainThread:90781 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2023-08-21 04:28:27,155 INFO    MainThread:90781 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/dolphin_classification/notebooks/wandb/settings
+2023-08-21 04:28:27,155 INFO    MainThread:90781 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-08-21 04:28:27,155 INFO    MainThread:90781 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-21 04:28:27,155 INFO    MainThread:90781 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_042827-tu93d1eu/logs/debug.log
+2023-08-21 04:28:27,155 INFO    MainThread:90781 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_042827-tu93d1eu/logs/debug-internal.log
+2023-08-21 04:28:27,156 INFO    MainThread:90781 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f03f3c95bb0>
+2023-08-21 04:28:27,156 INFO    MainThread:90781 [wandb_init.py:init():516] calling init triggers
+2023-08-21 04:28:27,156 INFO    MainThread:90781 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'arch': 'InceptionV4', 'batch_size': 182, 'epochs': 50, 'optimizer': 'SGD', 'learning rate': 0.001, 'momentum': 0.5, 'loss_function': CrossEntropyLoss(), 'classes': 30, 'Data aug': None}
+2023-08-21 04:28:27,156 INFO    MainThread:90781 [wandb_init.py:init():569] starting backend
+2023-08-21 04:28:27,156 INFO    MainThread:90781 [wandb_init.py:init():573] setting up manager
+2023-08-21 04:28:27,159 INFO    MainThread:90781 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-21 04:28:27,160 INFO    MainThread:90781 [wandb_init.py:init():580] backend started and connected
+2023-08-21 04:28:27,167 INFO    MainThread:90781 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-08-21 04:28:27,168 INFO    MainThread:90781 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-21 04:28:27,168 INFO    MainThread:90781 [wandb_init.py:init():658] updated telemetry
+2023-08-21 04:28:27,205 INFO    MainThread:90781 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-08-21 04:28:27,419 INFO    MainThread:90781 [wandb_run.py:_on_init():2000] communicating current version
+2023-08-21 04:28:27,470 INFO    MainThread:90781 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-08-21 04:28:27,470 INFO    MainThread:90781 [wandb_init.py:init():728] starting run threads in backend
+2023-08-21 04:28:27,820 INFO    MainThread:90781 [wandb_run.py:_console_start():1980] atexit reg
+2023-08-21 04:28:27,820 INFO    MainThread:90781 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-08-21 04:28:27,821 INFO    MainThread:90781 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-08-21 04:28:27,821 INFO    MainThread:90781 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-08-21 04:28:27,821 INFO    MainThread:90781 [wandb_init.py:init():765] run started, returning control to user process
+2023-08-21 04:29:47,789 INFO    MainThread:90781 [wandb_init.py:_pause_backend():389] pausing backend
+2023-08-21 04:29:47,790 INFO    MainThread:90781 [jupyter.py:save_ipynb():378] not saving jupyter notebook

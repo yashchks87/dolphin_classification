@@ -1,0 +1,35 @@
+2023-08-21 04:37:43,007 INFO    StreamThr :5647 [internal.py:wandb_internal():88] W&B internal server running at pid: 5647, started at: 2023-08-21 04:37:43.006491
+2023-08-21 04:37:43,009 DEBUG   HandlerThread:5647 [handler.py:handle_request():138] handle_request: status
+2023-08-21 04:37:43,010 DEBUG   SenderThread:5647 [sender.py:send_request():317] send_request: status
+2023-08-21 04:37:43,011 DEBUG   SenderThread:5647 [sender.py:send():303] send: header
+2023-08-21 04:37:43,012 INFO    WriterThread:5647 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_043742-2ngpcj5a/run-2ngpcj5a.wandb
+2023-08-21 04:37:43,052 DEBUG   SenderThread:5647 [sender.py:send():303] send: run
+2023-08-21 04:37:43,246 DEBUG   HandlerThread:5647 [handler.py:handle_request():138] handle_request: check_version
+2023-08-21 04:37:43,247 INFO    SenderThread:5647 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_043742-2ngpcj5a/files
+2023-08-21 04:37:43,248 INFO    SenderThread:5647 [sender.py:_start_run_threads():928] run started: 2ngpcj5a with start time 1692592663.002766
+2023-08-21 04:37:43,248 DEBUG   SenderThread:5647 [sender.py:send():303] send: summary
+2023-08-21 04:37:43,248 INFO    SenderThread:5647 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-08-21 04:37:43,248 DEBUG   SenderThread:5647 [sender.py:send_request():317] send_request: check_version
+2023-08-21 04:37:43,349 DEBUG   HandlerThread:5647 [handler.py:handle_request():138] handle_request: run_start
+2023-08-21 04:37:43,357 DEBUG   HandlerThread:5647 [meta.py:__init__():34] meta init
+2023-08-21 04:37:43,357 DEBUG   HandlerThread:5647 [meta.py:__init__():49] meta init done
+2023-08-21 04:37:43,357 DEBUG   HandlerThread:5647 [meta.py:probe():215] probe
+2023-08-21 04:37:43,370 DEBUG   HandlerThread:5647 [meta.py:_setup_git():205] setup git
+2023-08-21 04:37:43,386 DEBUG   HandlerThread:5647 [meta.py:_setup_git():212] setup git done
+2023-08-21 04:37:43,386 DEBUG   HandlerThread:5647 [meta.py:_save_pip():53] save pip
+2023-08-21 04:37:43,387 DEBUG   HandlerThread:5647 [meta.py:_save_pip():67] save pip done
+2023-08-21 04:37:43,387 DEBUG   HandlerThread:5647 [meta.py:probe():253] probe done
+2023-08-21 04:37:43,681 DEBUG   SenderThread:5647 [sender.py:send():303] send: files
+2023-08-21 04:37:43,682 INFO    SenderThread:5647 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-08-21 04:37:43,693 DEBUG   HandlerThread:5647 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:37:43,693 DEBUG   SenderThread:5647 [sender.py:send_request():317] send_request: stop_status
+2023-08-21 04:37:43,807 DEBUG   SenderThread:5647 [sender.py:send():303] send: telemetry
+2023-08-21 04:37:43,946 INFO    Thread-17 :5647 [upload_job.py:push():143] Uploaded file /tmp/tmpfu3p4p7kwandb/34vk5a6o-wandb-metadata.json
+2023-08-21 04:37:44,249 INFO    Thread-13 :5647 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_043742-2ngpcj5a/files/requirements.txt
+2023-08-21 04:37:44,250 INFO    Thread-13 :5647 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_043742-2ngpcj5a/files/wandb-metadata.json
+2023-08-21 04:37:44,250 INFO    Thread-13 :5647 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230821_043742-2ngpcj5a/files/wandb-summary.json
+2023-08-21 04:37:45,001 DEBUG   HandlerThread:5647 [handler.py:handle_request():138] handle_request: pause
+2023-08-21 04:37:45,001 INFO    HandlerThread:5647 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-08-21 04:37:45,032 DEBUG   SenderThread:5647 [sender.py:send():303] send: stats
+2023-08-21 04:37:58,809 DEBUG   HandlerThread:5647 [handler.py:handle_request():138] handle_request: stop_status
+2023-08-21 04:37:58,810 DEBUG   SenderThread:5647 [sender.py:send_request():317] send_request: stop_status

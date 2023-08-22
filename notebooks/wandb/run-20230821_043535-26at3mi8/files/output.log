@@ -1,0 +1,31 @@
+
+
+Epoch: 0:   0%|          | 0/275 [00:34<?, ?batch/s]ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f6f6c30ab80>
+Traceback (most recent call last):
+  File "/home/paperspace/.local/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1510, in __del__
+    self._shutdown_workers()
+  File "/home/paperspace/.local/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1474, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.9/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/home/paperspace/.local/lib/python3.9/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 4462) is killed by signal: Bus error. It is possible that dataloader's workers are out of shared memory. Please try to raise your shared memory limit.
