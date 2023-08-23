@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-156-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-08-23T21:13:21.675550",
+    "startedAt": "2023-08-23T21:13:14.451669",
+    "docker": null,
+    "gpu": "NVIDIA A100 80GB PCIe",
+    "gpu_count": 2,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yashchks87/dolphin_classification.git",
+        "commit": "52c9ed54099971509b50abd8db16946c39150ac0"
+    },
+    "email": "yashchks87@gmail.com",
+    "root": "/home/paperspace/Documents/dolphin_classification",
+    "host": "ps0tx42pw",
+    "username": "paperspace",
+    "executable": "/usr/local/bin/python"
+}

@@ -1,0 +1,38 @@
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_setup.py:_flush():68] Configure stats pid to 128202
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/.config/wandb/settings
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_setup.py:_flush():68] Loading settings from /home/paperspace/Documents/dolphin_classification/notebooks/wandb/settings
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_init.py:_log_setup():476] Logging user logs to /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230823_211314-o1lgx6ch/logs/debug.log
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_init.py:_log_setup():477] Logging internal logs to /home/paperspace/Documents/dolphin_classification/notebooks/wandb/run-20230823_211314-o1lgx6ch/logs/debug-internal.log
+2023-08-23 21:13:14,454 INFO    MainThread:128202 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7effd0d4e4f0>
+2023-08-23 21:13:14,455 INFO    MainThread:128202 [wandb_init.py:init():516] calling init triggers
+2023-08-23 21:13:14,455 INFO    MainThread:128202 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'arch': 'InceptionV4', 'batch_size': 356, 'epochs': 25, 'optimizer': 'SGD', 'learning rate': 0.001, 'momentum': 0.5, 'loss_function': CrossEntropyLoss(), 'classes': 30, 'Data aug': 'horizontal_flip'}
+2023-08-23 21:13:14,455 INFO    MainThread:128202 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 2eya2lxy
+2023-08-23 21:13:14,457 INFO    MainThread:128202 [wandb_run.py:_finish():1746] finishing run yashchks87/dolphin/2eya2lxy
+2023-08-23 21:13:14,457 INFO    MainThread:128202 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-08-23 21:13:14,457 INFO    MainThread:128202 [wandb_run.py:_restore():1932] restore
+2023-08-23 21:13:14,457 INFO    MainThread:128202 [wandb_run.py:_restore():1938] restore done
+2023-08-23 21:13:20,366 INFO    MainThread:128202 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-08-23 21:13:20,367 INFO    MainThread:128202 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-08-23 21:13:20,370 INFO    MainThread:128202 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-08-23 21:13:20,374 INFO    MainThread:128202 [wandb_init.py:init():569] starting backend
+2023-08-23 21:13:20,374 INFO    MainThread:128202 [wandb_init.py:init():573] setting up manager
+2023-08-23 21:13:20,375 INFO    MainThread:128202 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-23 21:13:20,376 INFO    MainThread:128202 [wandb_init.py:init():580] backend started and connected
+2023-08-23 21:13:20,380 INFO    MainThread:128202 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-08-23 21:13:20,380 INFO    MainThread:128202 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-23 21:13:20,380 INFO    MainThread:128202 [wandb_init.py:init():658] updated telemetry
+2023-08-23 21:13:20,483 INFO    MainThread:128202 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-08-23 21:13:21,624 INFO    MainThread:128202 [wandb_run.py:_on_init():2000] communicating current version
+2023-08-23 21:13:21,668 INFO    MainThread:128202 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-08-23 21:13:21,668 INFO    MainThread:128202 [wandb_init.py:init():728] starting run threads in backend
+2023-08-23 21:13:21,705 INFO    MainThread:128202 [wandb_run.py:_console_start():1980] atexit reg
+2023-08-23 21:13:21,706 INFO    MainThread:128202 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-08-23 21:13:21,706 INFO    MainThread:128202 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-08-23 21:13:21,706 INFO    MainThread:128202 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-08-23 21:13:21,706 INFO    MainThread:128202 [wandb_init.py:init():765] run started, returning control to user process
+2023-08-23 22:58:43,921 INFO    MainThread:128202 [wandb_init.py:_pause_backend():389] pausing backend
+2023-08-23 22:58:43,921 INFO    MainThread:128202 [jupyter.py:save_ipynb():378] not saving jupyter notebook
